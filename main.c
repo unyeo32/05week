@@ -6,16 +6,13 @@
 int main(int argc, char *argv[]) {
 	int i;
 	
-	printf("a number:\n");
-	scanf(" %i",&i);
+	printf("input a number:\n");
+	scanf("%i",&i);
 	
-	if (i > 0)
-		printf("양수\n");
-	
-	else if (i < 0) 
-		printf("음수\n");
+	if (i>= 0)
+		printf("%i\n",i);
 	else
-		printf("zero\n");
+		printf("%i\n",-i);
 	
 	return 0;
 }
