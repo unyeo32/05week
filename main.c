@@ -9,10 +9,11 @@ int main(int argc, char *argv[]) {
 	printf("input a number:\n");
 	scanf("%i",&i);
 	
-	if (i>= 0)
-		printf("%i\n",i);
-	else
-		printf("%i\n",-i);
+	if (i< 0)
+		i= i*(-1);
+		
+	
+	printf("Àý´ñ°ªÀº %i\n",i);
 	
 	return 0;
 }
